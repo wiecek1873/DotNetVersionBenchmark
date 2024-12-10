@@ -1,6 +1,6 @@
 ﻿using BenchmarkDotNet.Attributes;
 
-namespace Shared
+namespace Benchmarks
 {
     public class MyBenchmarks
     {
