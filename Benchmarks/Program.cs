@@ -1,9 +1,9 @@
-﻿using BenchmarkDotNet.Running;
-using Benchmarks;
+﻿// See https://aka.ms/new-console-template for more information
+using BenchmarkDotNet.Running;
 
-namespace DotNetVersionBenchmark
+namespace Benchmarks
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -11,3 +11,4 @@ namespace DotNetVersionBenchmark
         }
     }
 }
+
